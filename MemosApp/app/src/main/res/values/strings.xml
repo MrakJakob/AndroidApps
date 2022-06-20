@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MiniApp1</string>
+    <string name="enter_memo_title">Type memo title</string>
+    <string name="enter_memo_text">Type text here</string>
+    <string name="button_take_photo">Take photo</string>
+    <string name="button_save_memo">Save</string>
+    <string name="button_delete_memo">Delete</string>
+    <string name="button_share_memo">Share</string>
+    <string name="img_description_memo">Memo photo</string>
+    <string name="memo_title">Memo title</string>
+    <string name="memo_description">Memo description</string>
+    <string name="memo_timestamp">Memo timestamp</string>
+</resources>

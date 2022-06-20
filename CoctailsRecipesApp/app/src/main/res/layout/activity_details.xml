@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+        <LinearLayout
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:gravity="center"
+            >
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/output_onlinepngtools__1_"
+                android:padding="20dp"/>
+            <LinearLayout
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:gravity="center">
+                <TextView
+                    android:id="@+id/details_coctail_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Cocktail name"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textStyle="bold"
+                    android:textSize="20dp">
+                </TextView>
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/Favourites"
+                    android:layout_margin="20dp"
+                    />
+            </LinearLayout>
+    <LinearLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="20dp">
+            <TextView
+                android:id="@+id/details_cocktail_ingredients_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cocktail ingredients:"
+                android:padding="10dp"
+                android:layout_gravity="start"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/details_cocktail_ingredients"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cocktail details"
+                android:layout_gravity="start"
+                android:padding="10dp"
+                android:paddingStart="20dp"/>
+            <TextView
+                android:id="@+id/details_measures_list_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Measures list:"
+                android:layout_gravity="start"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/details_measures_list"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Cocktail measures"
+                android:layout_gravity="start"
+                android:padding="10dp"
+                android:paddingStart="20dp"/>
+            <TextView
+                android:id="@+id/details_instructions_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instructions:"
+                android:layout_gravity="start"
+                android:padding="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@color/cardview_dark_background"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/details_instructions"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Instructions..."
+                android:layout_gravity="start"
+                android:padding="10dp"
+                android:paddingStart="20dp"
+                />
+
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </ScrollView>

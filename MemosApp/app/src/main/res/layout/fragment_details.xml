@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:foregroundGravity="center_horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/details_memo_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="15dp"
+
+                android:includeFontPadding="true"
+                android:maxWidth="300dp"
+                android:text="@string/memo_title"
+                android:textSize="34sp" />
+
+            <ImageView
+                android:id="@+id/details_memo_image"
+                android:layout_width="199dp"
+                android:layout_height="226dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="50dp"
+                android:contentDescription="@string/img_description_memo"
+                android:src="@drawable/ic_launcher_foreground" />
+
+            <TextView
+                android:id="@+id/details_memo_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxWidth="300dp"
+                android:text="@string/memo_description"
+                android:textSize="20sp" />
+
+            <TextView
+                android:id="@+id/details_memo_timestamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="32dp"
+                android:text="@string/memo_timestamp" />
+
+    <LinearLayout
+        android:id="@+id/linear3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="25dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_marginBottom="20dp">
+        <Button
+            android:id="@+id/details_memo_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="120sp"
+            android:layout_marginStart="50sp"
+            android:text="@string/button_delete_memo" />
+
+        <Button
+            android:id="@+id/details_memo_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_marginEnd="50dp"
+            android:text="@string/button_share_memo" />
+        </LinearLayout>
+    </LinearLayout>
+        </LinearLayout>
+
+
+</ScrollView>

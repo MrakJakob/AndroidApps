@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MiniApp2</string>
+    <string name="music_stop_button">Stop</string>
+    <string name="music_resume_button">Resume</string>
+    <string name="channel_name">Foreground service channel</string>
+    <string name="channel_desc">Posts notifications related to the music player</string>
+    <string name="notif_title">Music player</string>
+    <string name="notif_text">Tap to return to the timer</string>
+</resources>
